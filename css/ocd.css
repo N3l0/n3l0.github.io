@@ -1,0 +1,86 @@
+body {
+    background-color: rgba(246, 186, 79, 0.6);
+}
+
+div#ocd_hl {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#ocd_hl h1 {
+    font-size: 3.5em;
+    margin-top: 0px;
+    border-left: 5px solid #ff6300;
+    padding: 10px;
+    color: #CCC;
+}
+
+div#ocd_hl .first_letter_ocd {
+    color: #ff6300;
+    font-size: 150%;
+}
+
+div#text_ocd {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    padding-top: 0px;
+
+}
+
+div#text_ocd div {
+    width: 80%;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 20px;
+    line-height: 30px;
+}
+ 
+
+
+div#text_ocd img{
+    float: right;
+    margin-left: 3%;
+    border: 2px dashed;
+}
+
+#aza {
+    opacity: 0.999999;
+}
+
+#arrow_down_ocd {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+#arrow_down_ocd a {
+    font-size: 5em;
+    color: #CCC;
+    text-decoration: none;
+    width: 60px;
+    text-shadow: 0px 0px black;
+    transition: color 1s;
+}
+
+#arrow_down_ocd i {
+    transition: text-shadow 1s;
+}
+
+#arrow_down_ocd a:hover {
+    color: #ff6300;
+
+}
+
+#arrow_down_ocd a:hover i {
+    text-shadow: 0px -10px #CCC;
+}
+
+
+#ocd_nav {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
